@@ -1,0 +1,90 @@
+/* PC máy tính */
+@media (min-width:1024px){
+
+}
+
+/* Tablet Máy tính bảng */
+@media (min-width:740px) and (max-width: 1023px){
+    .modal-content{
+        margin-top: -50%;
+    }
+    #footer .footer-icon .icon-face {
+        padding: 0 8px;
+        font-size: 32px;
+    }
+    .text-contact{
+        line-height: 2.0;
+    }
+}
+
+/* Tablet và Mobile */
+@media (max-width:1023px) {
+    .buy-tickets{
+        padding: 14px 16px;
+    }
+    .type {
+        padding: 14px;
+    }
+}
+/* Mobile điện thoại */
+@media (max-width:740px){
+    #nav > li:first-child{
+        display:inline-block;
+    }
+    .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    .subnav li {
+        padding: 2px 20px;
+    }
+    .subnav li a{
+        color: #fff;
+        
+    }
+    #nav {
+        display:block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search{
+        display:none;
+    }
+    #header .mobile{
+        display:block;
+    }
+    .content-member .content-name{
+        width: 100%;
+    }
+    .content-member .name {
+        margin-bottom: 16px;
+        width: 60%;
+    }
+    .plance-one{
+        width: 100%;
+        padding: 15px 8px;
+    }
+    .modal.open{
+        padding: 0 8px;
+    }
+    .col-haid{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contact{
+        padding-bottom: 16px;
+    }
+    .type-two{
+        width: 100% !important;
+    }
+    .buy-tickets{
+        width: 100% !important;
+    }
+}
